@@ -35,7 +35,6 @@ namespace PartyInvites.Controllers
 			else
 			{
 				// Обнаружена ошибка проверки достоверности, 
-				
 				return View();
 			}
 			}
