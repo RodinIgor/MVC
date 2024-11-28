@@ -4,8 +4,9 @@
 <html>
 	<head>
 		<title>Thanks</title>
+	<link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css"/>
 	</head>
-	<body>
+<body class="text-center">
 		<p>
 			<h1>Спасибо @Model.Name!</h1>
 		@if (Model.WillAttend == true)
@@ -18,7 +19,9 @@
 		}
 	</p>
 	<p> 
-		Нажми <a asp-action="ListResponses">здесь</a> чтоб увидеть кто идет.
+		@* Нажми <a asp-action="ListResponses">здесь</a> чтоб увидеть кто идет. *@
+		Нажми <a class="nav-link" asp-action="ListResponses">здесь</a> чтоб увидеть кто идет.
+
 	</p>
 	</body>
 </html>
